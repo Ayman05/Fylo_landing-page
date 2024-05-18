@@ -1,0 +1,362 @@
+body
+{
+ font-size: 16px;
+ font-weight: 400;
+ margin: 0;
+}
+*
+{
+	padding: 0;
+	margin: 0;
+	/*line-height: 30px;*/
+}
+.small
+{
+	font-size: 12px;
+}
+.primary 
+{
+  color:  hsl(243, 87%, 12%);
+  background:  hsl(238, 22%, 44%);
+}
+.Accent
+{
+   background: hsl(224, 93%, 58%);
+   color: hsl(170, 45%, 43%);
+}
+.Headings, .Call-to-actions, .Header ,.Navigation
+{
+	/*font-weight: 400;*/
+	font-weight: 700;
+}
+.logo-img
+{
+	font-size: 6px;
+}
+.header
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+
+
+}
+ul li
+{
+	display: inline-block;
+	padding-left: 20px ;
+	font-size: 17px;
+}
+.all-location
+{
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+}
+.location-1
+{
+	flex-basis: 50%;
+}
+.all-location-2
+{
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	display: flex;
+	
+}
+.all-location-2-1
+{
+	flex-basis: 50%;
+}
+.logo-illustration
+{
+	height: 300px;
+	flex-basis: 50%;
+}
+.logo-illustration-2
+{
+	height: 400px;
+	flex-basis: 50%;
+}
+.all-location img
+{
+	width: 100%;
+	height: 100%;
+}
+.gray 
+{
+	background: hsl(240, 75%, 98%);
+}
+.all-location .button
+{
+   
+	display: flex;
+	margin-top: 10px;
+
+}
+.all-location input
+{
+   margin-right: 10px;
+   border: 1px solid gray;
+}
+ .all-location button
+{
+	padding: 10px;
+	border:none;
+	outline: none;
+	background: hsl(224, 93%, 58%);
+	color: white;
+	border-radius: 5px;
+}
+.bg-curve-desktop
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	
+}
+.input-side-1
+{
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid gray;
+	width: 80%;
+}
+.input-side button
+{
+	background: hsl(224, 93%, 58%);
+	color: white;
+	margin-top: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+.all-location-3
+{
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	display: flex;
+	color: white;
+	background: hsl(238, 22%, 44%);
+}
+.input-side-3
+{
+	flex-basis: 50%;
+}
+.input-side
+{
+	flex-basis: 50%;
+
+}
+.final-div
+{
+	background: hsl(243, 87%, 12%);
+	color: white;
+}
+.final-div-2
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+.logo-img-2
+{
+	color: white;
+	width: 90px;
+	padding-left: 30px;
+	padding-top: 10px;
+
+}
+.final-div-2 ul li
+{
+	display: block;
+}
+.port-card
+{
+  padding: 10px;
+  /*margin-top: 20px;*/
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: justify;
+  width: 50%;
+  background: white;
+  	padding: 20px;
+}
+.avater-div 
+{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.see-how
+{
+	
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	width: 155px;
+}
+.see-how:hover 
+{
+	color: green;
+	cursor: pointer;
+
+}
+.see-how:hover::after
+{
+	background: green;
+}
+.see-how img
+{
+	margin-left:1px;
+}
+
+.see-how::after 
+{
+	content: "";
+	background: none;
+	height: 1px;
+	width:100%;
+	position: absolute;
+	top: 19px;
+}
+ul li:hover
+{
+	color: blue;
+	cursor: pointer;
+}
+.see-how:hover img
+{
+	transform: translateX(5px);
+}
+.avater-div span
+{
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50px;
+	overflow: hidden;
+}
+@media only screen and (max-width: 1440px)
+{
+}
+@media only screen and (max-width: 375px)
+{
+.header{
+   padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+}
+.all-location-2
+{
+	flex-direction: column-reverse;
+	
+}
+.logo-illustration
+{
+	height: 300px;
+	flex-basis: 100%;
+	padding: 0px;
+	text-align: justify;
+}
+.logo-img
+{
+	width: 40px;
+	height: 40px;
+}
+body
+{
+ font-size: 14px;
+ 
+}
+	.all-location
+{
+	flex-direction: column-reverse;
+}
+ul li
+{
+	padding-left: 10px ;
+	font-size: 12px;
+}
+
+.all-location
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	
+}
+
+.logo-illustration-2
+{
+	height: 200px;
+	flex-basis: 50%;
+}
+.port-card
+{
+  width: 200px;
+  	padding: 20px;
+}
+.all-location-3
+{
+	flex-direction: column;
+	text-align: center;
+}
+.final-div-2
+{
+	flex-direction: column;
+}
+.final-div-2 ul
+{
+	margin-top: 15px;
+}
+.input-side
+{
+	margin-top: 10px;
+
+}
+.input-side button
+{
+	margin-top: 10px;
+	width: 88%;
+}
+.all-location input
+{
+	padding: 10px;
+}
+.all-location .button
+{
+   
+	flex-direction: column;
+	width: 80%;
+
+}
+.all-location button
+{
+	margin-top: 10px;
+
+}
+.all-location input
+{
+   margin-right: 0;
+   border: 1px solid gray;
+}
+}
